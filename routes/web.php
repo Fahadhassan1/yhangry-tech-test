@@ -15,12 +15,12 @@ use Inertia\Inertia;
 |
 */
 
-//Route::get('/', function () {
+// Route::get('/', function () {
 //    return view('welcome');
-//});
+// });
 
 
 
-Route::get('/', function () {
+Route::get('/SetMenus', function () {
     return Inertia::render('Home');
 });
